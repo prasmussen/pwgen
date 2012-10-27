@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    margin-top: 20px;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+
+    display: box;
+    box-orient: vertical;
+    box-pack: center;
+    box-align: center;
+}
+
+#password-list {
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#password-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#password-list li {
+    list-style-type: none;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#actions {
+    margin-top: 20px;
+
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+
+    display: -moz-box;
+    -moz-box-orient: horizontal;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+
+    display: box;
+    box-orient: horizontal;
+    box-pack: center;
+    box-align: center;
+}
+
+.button {
+    cursor: hand;
+    cursor: pointer;
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+    background-color:#ededed;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#777777;
+    font-family:Georgia;
+    font-size:26px;
+    font-weight:bold;
+    padding:5px 24px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #ffffff;
+}
+
+.button:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+    background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+    background-color:#dfdfdf;
+}
+
+.button:active {
+    position:relative;
+    top:1px;
+}

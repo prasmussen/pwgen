@@ -1,0 +1,13 @@
+{
+    "name": "pwgen",
+    "version": "0.0.1",
+    "description": "Password generator",
+    "attachments": ["app"],
+    "modules": ["lib"],
+    "load": "lib/app",
+    "dependencies": {
+        "attachments": null,
+        "modules": null, 
+        "properties": null
+    }
+}
